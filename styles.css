@@ -426,11 +426,22 @@ ul li a:hover {
   width: 65%;
 }
 
+.life__image {
+  border: 2px solid var(--primary-color-dark);
+    border-radius: 10px;
+  height: 80vh;
+  width: 55%;
+}
+
 .description__width {
   width: 35%;
 } 
 
-@media (width < 875px) {
+.description__width2 {
+  width: 45%;
+} 
+
+@media (width < 966px) {
   nav .checkbox {
     display: block;
   }
@@ -468,10 +479,69 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
+
+  .pdf {
+    width: 100%;
+  }
+
+  .img__section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .life__image {
+    height: 65vh;
+    width: 75%;
+  }
+
+  .gephi__image {
+    height: 65vh;
+    width: 85%;
+  }
 }
 
 @media (width < 420px) {
   .action__btns div a {
     font-size: 0.7rem;
   }
+}
+
+@media (width < 692px) {
+  .life__image {
+    height: 50vh;
+    width: 75%;
+  }
+
+  .gephi__image {
+    height: 50vh;
+    width: 85%;
+  }
+
+  .description__width {
+    width: 60%;
+  } 
+
+  .description__width2 {
+    width: 60%;
+  } 
+}
+
+@media (width < 440px) {
+  .life__image {
+    height: 40vh;
+    width: 75%;
+  }
+
+  .gephi__image {
+    height: 65vh;
+    width: 85%;
+  }
+
+  .description__width {
+    width: 60%;
+  } 
+
+  .description__width2 {
+    width: 60%;
+  } 
 }
